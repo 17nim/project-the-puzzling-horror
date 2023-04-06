@@ -1,0 +1,739 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1680805705636460, "dur": 1952747, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680805705636773, "dur": 5040, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680805705641815, "dur": 1935169, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680805707576986, "dur": 12220, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680805707589699, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1680805705691638, "dur":2400, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805705694047, "dur":1934, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1680805705696043, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1680805705696073, "dur":189, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1680805705696288, "dur":785, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805705697073, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543444, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543452, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543466, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543472, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543478, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543481, "dur":204, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543685, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543691, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543702, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707543797, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707544793, "dur":4293, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1680805705696863, "dur":217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705697082, "dur":6485, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705703579, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680805705703582, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705703615, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680805705703617, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705703719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705704880, "dur":12699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1680805705717580, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680805705717601, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705717657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705717729, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1680805705719057, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680805705719076, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705719132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705719138, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1680805705720828, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805705720850, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705720922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705721032, "dur":153203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805705874256, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805705874280, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705874341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705874346, "dur":72387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805705946761, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805705946787, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705946858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705946866, "dur":36057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805705982944, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805705982969, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705983034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805705983041, "dur":56835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706039895, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706039922, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706039986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706039992, "dur":119215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706159226, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706159242, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706159303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706159310, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706160566, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706160580, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706160640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706160645, "dur":22125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706182790, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706182812, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706182877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706182884, "dur":48716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706232468, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706232492, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706232586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706232593, "dur":30426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706263036, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706263053, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706263113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706263118, "dur":64949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706328092, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706328150, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706328235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706328242, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706329752, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706329766, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706329828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706329833, "dur":58956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706388807, "dur":1227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706390035, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706390105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706390110, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706391766, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706392850, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706392935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706392946, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706395061, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706395337, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706395410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706395416, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706396686, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706396910, "dur":9677, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706406595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706406604, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706408732, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706409012, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706409078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706409083, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706410832, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706411079, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706411147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706411152, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706412472, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706412698, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706412766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706412771, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706413892, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706414141, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706414372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706414378, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706415495, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805706415511, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706415569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805706415574, "dur":647405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707063000, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707063028, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707063097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707063104, "dur":48283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707111415, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707111442, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707111517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707111524, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707113929, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707113959, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707114022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707114029, "dur":7919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707121979, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707122017, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707122300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1680805707122307, "dur":420853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1680805707543190, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1680805707543192, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705696893, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705697086, "dur":6579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705703666, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705703707, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705703769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705705704, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705708205, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705708229, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705708283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705708291, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705709879, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680805705709897, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705709963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705710471, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680805705712183, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1680805705712203, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705712391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705713588, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1680805705715510, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680805705715534, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705715617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705716137, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1680805705717552, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705717579, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705717634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705717714, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705719054, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705719079, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705719137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705719143, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1680805705720602, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705720621, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705720684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705720933, "dur":21189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705742157, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705742189, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705742271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705742558, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705743926, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705743948, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705744045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705744133, "dur":130185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705874334, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705874353, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705874413, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705874418, "dur":79492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705953932, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805705953961, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705954027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805705954034, "dur":124107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706078159, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706078657, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706078734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706078740, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706080166, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706080180, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706080239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706080244, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706081715, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706081735, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706081799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706081806, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706083021, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706083038, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706083112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706083140, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706085315, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706085331, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706085399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706085406, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706086964, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706086981, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706087247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706087255, "dur":67734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706155010, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706155027, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706155093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706155100, "dur":42455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706197581, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706197603, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706197664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706197670, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706199028, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706199045, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706199108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706199114, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706200352, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706200373, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706200433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706200439, "dur":21439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706221895, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706221909, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706221969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706221974, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706223198, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706223214, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706223275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706223281, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706224794, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706224811, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706224877, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706224891, "dur":28062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706252973, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706252989, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706253052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706253059, "dur":64658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706317738, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706317754, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706317819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706317845, "dur":23989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706341855, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706341871, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706341933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706341940, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706343341, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706343356, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706343417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706343442, "dur":147265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706490727, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706490743, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706490803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706490810, "dur":374252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706865084, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706865101, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706865186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706865194, "dur":36099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706901315, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805706901333, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706901399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805706901406, "dur":302088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805707203513, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805707203529, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805707203604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805707204174, "dur":37727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1680805707241918, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680805707241935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805707241939, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680805707243123, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680805707243141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805707243145, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":2, "ts":1680805707244360, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680805707244378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805707244383, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1680805707249830, "dur":33190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1680805707283021, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805707283086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1680805707283092, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1680805707284508, "dur":258833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705696920, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705697091, "dur":6480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705703580, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1680805705703612, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705703705, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705705737, "dur":8647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1680805705714407, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1680805705714433, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705714491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705714498, "dur":4844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1680805705719362, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1680805705719380, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705719554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705719559, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1680805705721065, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805705721084, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705721138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705721142, "dur":153282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805705874446, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805705874466, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705874654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705874659, "dur":120416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805705995094, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805705995114, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705995378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805705995384, "dur":22732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706018136, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706018154, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706018216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706018223, "dur":20818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706039059, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706039083, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706039172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706039178, "dur":17773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706056972, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706056988, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706057050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706057056, "dur":17516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706074592, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706074630, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706074698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706074704, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706075916, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706075942, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706076003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706076009, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706077479, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706077497, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706077579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706077586, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706079952, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706079967, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706080027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706080033, "dur":19995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706100054, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706100084, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706100158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706100165, "dur":74398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706174590, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706174630, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706174708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706174716, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706175862, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706175879, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706175944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706175950, "dur":23253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706199221, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706199235, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706199295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706199300, "dur":63383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706262702, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706262725, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706262788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706262795, "dur":26236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706289052, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706289066, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706289127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706289132, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706292057, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706292075, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706292146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706292153, "dur":36796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706328974, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706328989, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706329065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706329071, "dur":49022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706378113, "dur":1445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706379559, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706379653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706379660, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706380946, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706381554, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706381626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706381633, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706383146, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706383953, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706384029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706384036, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706385825, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706385842, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706385917, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706385931, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706387472, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706387929, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706388009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706388016, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706389624, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706389858, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706389930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706389936, "dur":3181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706393141, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706393404, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706393655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706393662, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706396493, "dur":780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706397274, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706397371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706397378, "dur":11469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706408864, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706408878, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706409019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706409025, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706410710, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706411325, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706411392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706411397, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706413175, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706413403, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706413467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706413472, "dur":5437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706418968, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706418983, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706419057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706419064, "dur":68793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706487957, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706487975, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706488046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706488053, "dur":235830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706723904, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706723920, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706724018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706724027, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706726705, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706726722, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706726795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706726803, "dur":69364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706796196, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706796217, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706796291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706796298, "dur":32815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706829133, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805706829212, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706829287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805706829295, "dur":259874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805707089189, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805707089206, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805707089267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805707089274, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805707091775, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805707091792, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805707091864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805707091871, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805707093284, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805707093300, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805707093365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1680805707093371, "dur":220010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1680805707313428, "dur":229857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705696944, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705697098, "dur":6472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705703580, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1680805705703629, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705703743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705705894, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1680805705708112, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1680805705708132, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705708190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705708197, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1680805705709613, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1680805705709633, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705709690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705709697, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1680805705711494, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1680805705711519, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705711574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705712538, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1680805705714976, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1680805705714994, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705715276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705715285, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1680805705720239, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1680805705720256, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705720311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705720316, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1680805705722589, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1680805705722615, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705722673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705722678, "dur":10909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1680805705733614, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror.exe" }}
+,{ "pid":12345, "tid":4, "ts":1680805705734405, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705734475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705734481, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror.exe" }}
+,{ "pid":12345, "tid":4, "ts":1680805705736167, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1680805705736189, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705736256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705736571, "dur":137656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1680805705874252, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805705874270, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705874330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705874336, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805705875923, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805705875949, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705876011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705876018, "dur":58074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805705934117, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805705934138, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705934428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705934437, "dur":53727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805705988188, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805705988206, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705988276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805705988369, "dur":27848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706016239, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706016255, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706016319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706016325, "dur":21686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706038032, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706038057, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706038122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706038133, "dur":80997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706119153, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706119169, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706119234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706119240, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706120417, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706120439, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706120516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706120522, "dur":54691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706175230, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706175250, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706175334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706175339, "dur":21151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706196510, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706196525, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706196586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706196593, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706197999, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706198017, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706198103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706198108, "dur":20859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706218991, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706219008, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706219081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706219088, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706221283, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706221299, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706221459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706221465, "dur":23846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706245335, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706245351, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706245444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706245451, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706247542, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706247558, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706247630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706247637, "dur":38872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706286536, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706286711, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706286811, "dur":27, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706286874, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706289003, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706289024, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706289092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706289098, "dur":24582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706313704, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706313721, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706313790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706313797, "dur":50938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706364755, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706364770, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706364834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706364841, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706368049, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706368065, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706368129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706368135, "dur":39945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706408099, "dur":1069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706409168, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706409237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706409241, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706411264, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706411567, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706411691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706411714, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706413285, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706413537, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706413602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706413606, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706415080, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706415094, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706415154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706415159, "dur":185577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706600755, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706600771, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706600840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706600847, "dur":189776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706790644, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706790660, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706790727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706790735, "dur":120054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706910809, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706910826, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706910889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706910895, "dur":7499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706918423, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805706918448, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706918521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805706918528, "dur":283523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805707202076, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805707202441, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707202529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707202536, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1680805707204136, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1680805707204161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707204222, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1680805707206203, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707206225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707206231, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707209938, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707209958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707209964, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707211183, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707211199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707211204, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707212404, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707212421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707212426, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707213814, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707213833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707213838, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707218671, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707218691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707218698, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707220515, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":4, "ts":1680805707220535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707220542, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":4, "ts":1680805707222178, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707222198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707222204, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707223409, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707223445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707223451, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707225111, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707225129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707225134, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707226351, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1680805707226370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707226375, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1680805707227653, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707227672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707227678, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707230522, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707230542, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707230548, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707231977, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707232000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707235864, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707240252, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707240272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707240278, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707241806, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707241826, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707241889, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707243143, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1680805707243160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707243165, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1680805707245856, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707245876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707245883, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707247187, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707247207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707247212, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707249631, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1680805707249863, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707249929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707249935, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1680805707251148, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707251166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707251171, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707253902, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707253922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707253928, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707255736, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1680805707255756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707255762, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level9" }}
+,{ "pid":12345, "tid":4, "ts":1680805707256937, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1680805707256953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707256957, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level8" }}
+,{ "pid":12345, "tid":4, "ts":1680805707258463, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1680805707258481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707258487, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1680805707260054, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1680805707260073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707260079, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1680805707261533, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1680805707261551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707261556, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1680805707262706, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1680805707262722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707262726, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1680805707263807, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1680805707263823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707263827, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1680805707264974, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1680805707264991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707264995, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1680805707266118, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level12" }}
+,{ "pid":12345, "tid":4, "ts":1680805707266135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707266139, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level12" }}
+,{ "pid":12345, "tid":4, "ts":1680805707267253, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level11" }}
+,{ "pid":12345, "tid":4, "ts":1680805707267269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707267274, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level11" }}
+,{ "pid":12345, "tid":4, "ts":1680805707268414, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1680805707268430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707268434, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1680805707269930, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1680805707269948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707269953, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1680805707271104, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1680805707271121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707271126, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1680805707272809, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707272830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707272836, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1680805707277689, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707277711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707277718, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1680805707279756, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1680805707279777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707279783, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1680805707281502, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1680805707281745, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707281810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1680805707281816, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bnskt/Desktop/New folder/The Puzzling Horror_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1680805707282907, "dur":260489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1680805707550829, "dur":3484, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1680805707589794, "dur": 61413, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1680805707589684, "dur": 61565, "ph": "X", "name": "Write chrome-trace events", "args": {} },

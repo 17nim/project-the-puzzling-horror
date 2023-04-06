@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: 759a3f1cbb733c44c893cdebc1c5e614
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 82cab19622e1cea4a864772a283397a8
+  - enabled: 1
+    path: Assets/Scenes/SelectStages.unity
+    guid: 41d929d165963914084028434533ed26
+  - enabled: 1
+    path: Assets/Scenes/JumpScare.unity
+    guid: a3435f52cf40fd847b2121c2921e4368
+  - enabled: 1
+    path: Assets/Scenes/Pass-Quiz.unity
+    guid: 7eef27a448a69b749a6cdd2289f27e3d
+  - enabled: 1
+    path: Assets/Scenes/Pass-Quiz 1.unity
+    guid: f312c8dab9ca4724a9c1a85c8557e2b6
+  - enabled: 1
+    path: Assets/Maps_player/map 1.unity
+    guid: 84b8acef40cd4b54d9f0f9f10bd25455
+  - enabled: 1
+    path: Assets/Maps_player/map 2.unity
+    guid: b54519d96e770f7439a54a990dbd14da
+  - enabled: 1
+    path: Assets/Maps_player/map 3.unity
+    guid: a7180d8affd2d5d45bc025003c834ded
+  - enabled: 1
+    path: Assets/Scenes/Quiz-1.unity
+    guid: eac6c5999d8b0f74db489a664e760449
+  - enabled: 1
+    path: Assets/Scenes/Quiz-2.unity
+    guid: dde2dd579f4b2a7409452f22fc219f6a
+  - enabled: 1
+    path: Assets/Scenes/Quiz-3.unity
+    guid: f62ec54fefe73ab449be526825ca4653
+  - enabled: 1
+    path: Assets/Scenes/Fail-Quiz.unity
+    guid: d4b7aeb0452a62b44b8baa9afce834ad
+  m_configObjects: {}
